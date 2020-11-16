@@ -13,6 +13,7 @@
 		EEE4BA0B25631F7800242471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE4BA0A25631F7800242471 /* Assets.xcassets */; };
 		EEE4BA0E25631F7800242471 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE4BA0D25631F7800242471 /* Preview Assets.xcassets */; };
 		EEE4BA1125631F7800242471 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE4BA0F25631F7800242471 /* LaunchScreen.storyboard */; };
+		EEE4BA19256320D000242471 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4BA18256320D000242471 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EEE4BA0D25631F7800242471 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EEE4BA1025631F7800242471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEE4BA1225631F7800242471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE4BA18256320D000242471 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				EEE4BA0425631F7700242471 /* AppDelegate.swift */,
 				EEE4BA0625631F7700242471 /* SceneDelegate.swift */,
 				EEE4BA0825631F7700242471 /* ContentView.swift */,
+				EEE4BA18256320D000242471 /* CircleImage.swift */,
 				EEE4BA0A25631F7800242471 /* Assets.xcassets */,
 				EEE4BA0F25631F7800242471 /* LaunchScreen.storyboard */,
 				EEE4BA1225631F7800242471 /* Info.plist */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEE4BA0525631F7700242471 /* AppDelegate.swift in Sources */,
+				EEE4BA19256320D000242471 /* CircleImage.swift in Sources */,
 				EEE4BA0725631F7700242471 /* SceneDelegate.swift in Sources */,
 				EEE4BA0925631F7700242471 /* ContentView.swift in Sources */,
 			);
