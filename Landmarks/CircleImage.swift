@@ -10,8 +10,8 @@ import SwiftUI
 
 struct CircleImage: View {
     var body: some View {
-        Image("2020-01-31 17.06.06")
-            .frame(width: 300, height: 500)
+        Image("87654321")
+           // .frame(width: 300, height: 300)
             .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
             .overlay(Circle().stroke(Color.white, lineWidth: 4))
             .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
