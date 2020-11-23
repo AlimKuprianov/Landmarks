@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE165864256BDE3000CDD676 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE165863256BDE3000CDD676 /* Badge.swift */; };
 		EE5C0B3A25646BB600122049 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5C0B3925646BB600122049 /* LandmarkRow.swift */; };
 		EE5C0B3C256472B200122049 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5C0B3B256472B200122049 /* LandmarkList.swift */; };
 		EE5FE4642564570100A543EF /* lakemcdonald.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE5FE457256456FF00A543EF /* lakemcdonald.jpg */; };
@@ -37,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE165863256BDE3000CDD676 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		EE5C0B3925646BB600122049 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		EE5C0B3B256472B200122049 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		EE5FE457256456FF00A543EF /* lakemcdonald.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lakemcdonald.jpg; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				EE5FE4722564578200A543EF /* LandMarkData.swift */,
 				EE5FE474256457C700A543EF /* Landmark.swift */,
 				EE6515FB25644CD800013F86 /* LandmarkDetail.swift */,
+				EE165863256BDE3000CDD676 /* Badge.swift */,
 				EE5C0B3925646BB600122049 /* LandmarkRow.swift */,
 				EE5C0B3B256472B200122049 /* LandmarkList.swift */,
 				EEA5A57B25695FC100BACBD9 /* UserData.swift */,
@@ -233,6 +236,7 @@
 			files = (
 				EE5FE475256457C700A543EF /* Landmark.swift in Sources */,
 				EE6515F825644CD800013F86 /* AppDelegate.swift in Sources */,
+				EE165864256BDE3000CDD676 /* Badge.swift in Sources */,
 				EE5FE4732564578200A543EF /* LandMarkData.swift in Sources */,
 				EE65160C25644DBB00013F86 /* CircleImage.swift in Sources */,
 				EE5C0B3C256472B200122049 /* LandmarkList.swift in Sources */,
