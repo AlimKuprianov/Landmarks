@@ -67,6 +67,7 @@
 		EE65160525644CDA00013F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE65160B25644DBB00013F86 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		EE65160D25644DE300013F86 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		EE8E814D256D311E004F7266 /* LandmarksTwo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LandmarksTwo.entitlements; sourceTree = "<group>"; };
 		EEA5A57B25695FC100BACBD9 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		EEC2508E2565B5C600DA4676 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = landmarkData.json; path = ../../../../Downloads/HandlingUserInput/StartingPoint/Landmarks/Landmarks/Resources/landmarkData.json; sourceTree = "<group>"; };
 		EEC250902565B67800DA4676 /* charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers.jpg; sourceTree = "<group>"; };
@@ -123,6 +124,7 @@
 		EE6515F625644CD800013F86 /* LandmarksTwo */ = {
 			isa = PBXGroup;
 			children = (
+				EE8E814D256D311E004F7266 /* LandmarksTwo.entitlements */,
 				EE5FE4712564571200A543EF /* Sources */,
 				EE6515F725644CD800013F86 /* AppDelegate.swift */,
 				EE6515F925644CD800013F86 /* SceneDelegate.swift */,
@@ -384,6 +386,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LandmarksTwo/LandmarksTwo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"LandmarksTwo/Preview Content\"";
 				DEVELOPMENT_TEAM = X4XKW9NXX6;
@@ -395,6 +398,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = firsttwo.LandmarksTwo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -404,6 +408,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LandmarksTwo/LandmarksTwo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"LandmarksTwo/Preview Content\"";
 				DEVELOPMENT_TEAM = X4XKW9NXX6;
@@ -415,6 +420,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = firsttwo.LandmarksTwo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
