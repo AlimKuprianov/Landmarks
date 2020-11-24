@@ -50,6 +50,7 @@ struct Badge: View {
                 startPoint: .init(x: 0.5, y: 0),
                 endPoint: .init(x: 0.5, y: 0.6)
             ))
+            .aspectRatio(contentMode: .fit)
         }
     }
     
