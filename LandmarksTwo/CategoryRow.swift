@@ -41,7 +41,7 @@ struct CategoryItem: View {
             landmark.image
                 .resizable()
                 .frame(width: 155, height: 155)
-                .cornerRadius(5)
+                .cornerRadius(20)
             Text(landmark.name)
                 .font(.caption)
         }
