@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE03343E25712AB50069362B /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE03343D25712AB50069362B /* CategoryHome.swift */; };
 		EE165864256BDE3000CDD676 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE165863256BDE3000CDD676 /* Badge.swift */; };
 		EE165867256BDEE000CDD676 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE165866256BDEE000CDD676 /* HexagonParameters.swift */; };
 		EE5C0B3A25646BB600122049 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5C0B3925646BB600122049 /* LandmarkRow.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE03343D25712AB50069362B /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		EE165863256BDE3000CDD676 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		EE165866256BDEE000CDD676 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		EE5C0B3925646BB600122049 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				EE5FE474256457C700A543EF /* Landmark.swift */,
 				EE6515FB25644CD800013F86 /* LandmarkDetail.swift */,
 				EE165863256BDE3000CDD676 /* Badge.swift */,
+				EE03343D25712AB50069362B /* CategoryHome.swift */,
 				EEDBF413256D982F00FDEABA /* BadgeBackground.swift */,
 				EEDBF416256D98A600FDEABA /* BadgeSymbol.swift */,
 				EEDBF419256DB9A000FDEABA /* RotatedBadgeSymbol.swift */,
@@ -252,6 +255,7 @@
 				EE5FE475256457C700A543EF /* Landmark.swift in Sources */,
 				EE6515F825644CD800013F86 /* AppDelegate.swift in Sources */,
 				EE165864256BDE3000CDD676 /* Badge.swift in Sources */,
+				EE03343E25712AB50069362B /* CategoryHome.swift in Sources */,
 				EE5FE4732564578200A543EF /* LandMarkData.swift in Sources */,
 				EE65160C25644DBB00013F86 /* CircleImage.swift in Sources */,
 				EE5C0B3C256472B200122049 /* LandmarkList.swift in Sources */,
@@ -410,7 +414,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = firsttwo.LandmarksTwo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -432,7 +436,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = firsttwo.LandmarksTwo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
