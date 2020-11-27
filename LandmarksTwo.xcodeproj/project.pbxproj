@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EE03343E25712AB50069362B /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE03343D25712AB50069362B /* CategoryHome.swift */; };
+		EE033442257135D40069362B /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE033441257135D40069362B /* CategoryRow.swift */; };
 		EE165864256BDE3000CDD676 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE165863256BDE3000CDD676 /* Badge.swift */; };
 		EE165867256BDEE000CDD676 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE165866256BDEE000CDD676 /* HexagonParameters.swift */; };
 		EE5C0B3A25646BB600122049 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5C0B3925646BB600122049 /* LandmarkRow.swift */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		EE03343D25712AB50069362B /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
+		EE033441257135D40069362B /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		EE165863256BDE3000CDD676 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		EE165866256BDEE000CDD676 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		EE5C0B3925646BB600122049 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				EE6515FB25644CD800013F86 /* LandmarkDetail.swift */,
 				EE165863256BDE3000CDD676 /* Badge.swift */,
 				EE03343D25712AB50069362B /* CategoryHome.swift */,
+				EE033441257135D40069362B /* CategoryRow.swift */,
 				EEDBF413256D982F00FDEABA /* BadgeBackground.swift */,
 				EEDBF416256D98A600FDEABA /* BadgeSymbol.swift */,
 				EEDBF419256DB9A000FDEABA /* RotatedBadgeSymbol.swift */,
@@ -259,6 +262,7 @@
 				EE5FE4732564578200A543EF /* LandMarkData.swift in Sources */,
 				EE65160C25644DBB00013F86 /* CircleImage.swift in Sources */,
 				EE5C0B3C256472B200122049 /* LandmarkList.swift in Sources */,
+				EE033442257135D40069362B /* CategoryRow.swift in Sources */,
 				EEDBF417256D98A600FDEABA /* BadgeSymbol.swift in Sources */,
 				EEDBF41A256DB9A000FDEABA /* RotatedBadgeSymbol.swift in Sources */,
 				EE65160E25644DE300013F86 /* MapView.swift in Sources */,
