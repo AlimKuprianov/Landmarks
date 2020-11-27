@@ -16,8 +16,11 @@ struct CategoryRow: View {
     
     
     var body: some View {
-        Text(self.categoryName)
-            .font(.headline)
+        HStack(alignment: .top, spacing: 0) {
+            ForEach(self.items) { landmark in
+                Text(landmark.name)
+            }
+        }
     }
 }
 
